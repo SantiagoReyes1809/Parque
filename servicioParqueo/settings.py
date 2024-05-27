@@ -11,7 +11,7 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 
 ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'parque.azurewebsites.net']
-CSRF_TRUSTED_ORIGINS = ['https://parque.azurewebsites.nett']
+CSRF_TRUSTED_ORIGINS = ['https://parque.azurewebsites.net']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
